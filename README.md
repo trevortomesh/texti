@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <img src="./images/texti-icon.png" alt="image" style="zoom:25%;" />
+=======
+<img src="/images/texti-logo.svg" alt="drawing" style="width:200px;"/>
+>>>>>>> 74d2c481f16071379538bd56a1298a0512bda04f
 
 # texti (.txti) File Format 
 
