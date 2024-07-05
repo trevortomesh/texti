@@ -1,3 +1,5 @@
+![image](/images/texti-logo.svg)
+
 # texti (.txti) File Format
 
 Welcome to the `texti` file format! The `.txti` extension is designed to help you organize and manage a variety of information in a single, structured text file. This guide will walk you through the basics of the `texti` format, how to use it, and the conventions you’ll need to follow.
