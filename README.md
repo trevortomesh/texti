@@ -4,6 +4,7 @@ Welcome to the `texti` file format! The `.txti` extension is designed to help yo
 
 
 ![image](/images/example.png)
+Texti files work best in [sublime](https://www.sublimetext.com/)!
 
 ## Table of Contents
 
