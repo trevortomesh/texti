@@ -131,6 +131,48 @@ The **Journal** section is for daily entries, task lists, and reflections.
 === === === === === === ===  /JOURNAL   === === === === === === === === === ===
 ```
 
+### TODO Lists
+Certainly! Here’s a section dedicated to using **To-Do Lists** with the `texti` file format, including details on how the syntax highlighter displays checked and unchecked tasks:
+
+---
+
+#### To-Do Lists in texti Files
+
+The `texti` format is well-suited for managing to-do lists. Whether you’re keeping track of work tasks, personal goals, or project milestones, you can use the `texti` format’s features to organize and prioritize your tasks effectively.
+
+#### Creating To-Do Lists
+
+To create a to-do list in a `.txti` file, use the following syntax:
+
+```plaintext
+=== === === === === === === TO-DO LIST === === === === === === === === === ===
+    -------------------- Work Tasks -----------------
+    - [ ] Finish draft of research paper
+    - [ ] Prepare presentation slides for conference
+    - [ ] Submit grant application
+
+    -------------------- Personal Tasks -----------------
+    - [ ] Buy groceries
+    - [ ] Schedule dentist appointment
+    - [ ] Organize home office
+
+    -------------------- Ideas -----------------
+    - [ ] Develop a plugin for text editors to support text-based project management
+=== === === === === === === /TO-DO LIST === === === === === === === === === ===
+```
+
+#### Task Syntax
+
+- **Unchecked Task:** `[ ] Task Description`
+- **Checked Task:** `[X] Task Description`
+
+#### Visual Representation in Sublime Text
+
+With the `texti` syntax highlighter, you will see the following color coding for your to-do lists:
+
+- **Unchecked Tasks:** `[ ]` will be highlighted in **red**, making it easy to see tasks that still need to be completed.
+- **Checked Tasks:** `[X]` will be highlighted in **green**, helping you track which tasks are finished.
+
 ## Using texti Files
 
 1. **Creating a `.txti` File:** Start with a blank text file and save it with the `.txti` extension.
