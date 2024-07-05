@@ -5,19 +5,29 @@ Welcome to the `texti` file format! The `.txti` extension is designed to help yo
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [File Structure](#file-structure)
-3. [Sections and Keywords](#sections-and-keywords)
-4. [Examples](#examples)
-5. [Using texti Files](#using-texti-files)
-6. [Advanced Features](#advanced-features)
-7. [Best Practices](#best-practices)
-8. [Installing texti in Sublime Text](#installing-texti-in-sublime-text)
-9. [Contributing](#contributing)
-10. [License](#license)
+2. [Editor Requirements](#editor-requirements)
+3. [File Structure](#file-structure)
+4. [Sections and Keywords](#sections-and-keywords)
+5. [Examples](#examples)
+6. [Using texti Files](#using-texti-files)
+7. [Advanced Features](#advanced-features)
+8. [Best Practices](#best-practices)
+9. [Installing texti in Sublime Text](#installing-texti-in-sublime-text)
+10. [Contributing](#contributing)
+11. [License](#license)
 
 ## Introduction
 
 The `texti` file format is a text-based system for organizing information into sections with foldable elements. It’s designed to be used with text editors like Sublime Text, which support text folding to help manage large amounts of information.
+
+## Editor Requirements
+The texti file format relies on text editors that support text folding using tabbed sections. The primary feature you need is the ability to collapse and expand sections based on the headers and dividers in your .txti file.
+
+Why Folding is Essential
+Organize Large Files: Folding allows you to manage large files by collapsing sections you’re not currently working on, keeping the interface clean and focused.
+Navigate Easily: With sections folded and expanded, you can quickly navigate between different parts of your file without being overwhelmed by too much information.
+Visual Clarity: Proper folding helps maintain a clear visual structure of your file, ensuring that your organizational scheme is both visible and functional.
+For the best experience with texti, use editors like Sublime Text that have robust support for text folding and customizable syntax highlighting.
 
 ## File Structure
 
