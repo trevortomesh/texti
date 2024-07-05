@@ -1,11 +1,10 @@
-![image](/images/texti-logo.svg)
+<img src="./images/texti-icon.png" alt="image" style="zoom:25%;" />
 
-# texti (.txti) File Format
+# texti (.txti) File Format 
 
 Welcome to the `texti` file format! The `.txti` extension is designed to help you organize and manage a variety of information in a single, structured text file. This guide will walk you through the basics of the `texti` format, how to use it, and the conventions you’ll need to follow.
 
-
-![image](/images/example.png)
+![image](./images/example.png)
 Texti files work best in [sublime](https://www.sublimetext.com/)!
 
 ## Table of Contents
