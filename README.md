@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-<img src="./images/texti-icon.png" alt="image" style="zoom:25%;" />
-=======
-<img src="/images/texti-logo.svg" alt="drawing" style="width:200px;"/>
->>>>>>> 74d2c481f16071379538bd56a1298a0512bda04f
 
+<img src="./images/texti-icon.png" alt="image" style="zoom:25%;" />
 # texti (.txti) File Format 
 
 Welcome to the `texti` file format! The `.txti` extension is designed to help you organize and manage a variety of information in a single, structured text file. This guide will walk you through the basics of the `texti` format, how to use it, and the conventions you’ll need to follow.
