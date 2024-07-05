@@ -132,11 +132,6 @@ The **Journal** section is for daily entries, task lists, and reflections.
 ```
 
 ### TODO Lists
-Certainly! Here’s a section dedicated to using **To-Do Lists** with the `texti` file format, including details on how the syntax highlighter displays checked and unchecked tasks:
-
----
-
-#### To-Do Lists in texti Files
 
 The `texti` format is well-suited for managing to-do lists. Whether you’re keeping track of work tasks, personal goals, or project milestones, you can use the `texti` format’s features to organize and prioritize your tasks effectively.
 
