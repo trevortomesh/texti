@@ -1,4 +1,4 @@
-![image](/images/texti-logo.svg){ width: 200px; }
+<img src="/images/texti-logo.svg" alt="drawing" style="width:200px;"/>
 
 # texti (.txti) File Format
 
