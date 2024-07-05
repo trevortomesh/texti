@@ -11,8 +11,9 @@ Welcome to the `texti` file format! The `.txti` extension is designed to help yo
 5. [Using texti Files](#using-texti-files)
 6. [Advanced Features](#advanced-features)
 7. [Best Practices](#best-practices)
-8. [Contributing](#contributing)
-9. [License](#license)
+8. [Installing texti in Sublime Text](#installing-texti-in-sublime-text)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ## Introduction
 
@@ -131,9 +132,39 @@ The **Journal** section is for daily entries, task lists, and reflections.
 - **Use Descriptive Headers:** Choose section titles that clearly describe the content.
 - **Update Regularly:** Regularly update your `.txti` file to keep information current.
 
+## Installing texti in Sublime Text
+
+To get the best experience using the `texti` file format in Sublime Text, you need to install the custom syntax highlighting and color scheme files. Follow these steps to set them up:
+
+### 1. Download the Files
+
+Download the following files from our [GitHub repository](https://github.com/trevortomesh/texti):
+- `txti.sublime-color-scheme`
+- `txti.sublime-syntax`
+
+### 2. Locate the Sublime Text Packages Directory
+
+Depending on your operating system, navigate to the Sublime Text packages directory:
+
+- **Windows:** `%APPDATA%\Sublime Text\Packages`
+- **macOS:** `~/Library/Application Support/Sublime Text/Packages`
+- **Linux:** `~/.config/sublime-text/Packages`
+
+### 3. Copy the Files
+
+Copy the downloaded `txti.sublime-color-scheme` and `txti.sublime-syntax` files into the `Packages` directory.
+
+### 4. Apply the Color Scheme and Syntax
+
+1. **Open Sublime Text.**
+2. **Set the Syntax:** Go to `View` > `Syntax` > `Open all with current extension as...` > `txti` to apply the `txti` syntax highlighting.
+3. **Set the Color Scheme:** Go to `Preferences` > `Color Scheme` > `txti` to select the `txti` color scheme.
+
+This will enable syntax highlighting and a custom color scheme for `.txti` files, enhancing your editing experience.
+
 ## Contributing
 
-If you have suggestions or improvements for the `texti` format, please feel free to contribute! Open an issue or submit a pull request on our [GitHub repository](https://github.com/your-repo).
+If you have suggestions or improvements for the `texti` format, please feel free to contribute! Open an issue or submit a pull request on our [GitHub repository](https://github.com/trevortomesh/texti).
 
 ## License
 
