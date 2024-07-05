@@ -125,24 +125,6 @@ The **Journal** section is for daily entries, task lists, and reflections.
 2. **Organizing Information:** Use sections to categorize your information. Create headers and dividers as needed.
 3. **Folding Sections:** In Sublime Text, you can use the text folding feature to collapse and expand sections.
 
-## Advanced Features
-
-### Adding Interfaces
-
-You can embed simple text-based interfaces using special keywords:
-
-- `[clock]` – Displays the current time.
-- `[calendar]` – Displays a calendar for the current month.
-- `[weather]` – Displays the current weather conditions.
-
-**Example:**
-
-```plaintext
-[clock]
-[calendar]
-[weather]
-```
-
 ## Best Practices
 
 - **Keep Sections Clear:** Ensure that each section has a clear purpose and label.
