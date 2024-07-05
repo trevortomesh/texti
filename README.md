@@ -23,7 +23,7 @@ The `texti` file format is a text-based system for organizing information into s
 ## Editor Requirements
 The texti file format relies on text editors that support text folding using tabbed sections. The primary feature you need is the ability to collapse and expand sections based on the headers and dividers in your .txti file.
 
-** Why Folding is Essential **
+**Why Folding is Essential**
 - Organize Large Files: Folding allows you to manage large files by collapsing sections you’re not currently working on, keeping the interface clean and focused.
 - Navigate Easily: With sections folded and expanded, you can quickly navigate between different parts of your file without being overwhelmed by too much information.
 - Visual Clarity: Proper folding helps maintain a clear visual structure of your file, ensuring that your organizational scheme is both visible and functional.
