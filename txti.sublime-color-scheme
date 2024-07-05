@@ -1,0 +1,107 @@
+{
+    "variables": {
+        "background": "rgba(28, 28, 30, 0.95)",
+        "foreground": "rgba(255, 255, 255, 0.87)",
+        "caret": "rgba(255, 255, 255, 0.87)",
+        "selection": "rgba(64, 64, 64, 0.5)",
+        "lineHighlight": "rgba(44, 44, 46, 0.8)",
+        "comment": "rgba(156, 156, 158, 0.75)",
+        "string": "rgba(194, 194, 199, 0.87)",
+        "keyword": "rgba(255, 159, 10, 0.87)",
+        "function": "rgba(255, 69, 58, 0.87)"
+    },
+    "globals": {
+        "background": "var(background)",
+        "foreground": "var(foreground)",
+        "caret": "var(caret)",
+        "block_caret": "var(caret)",
+        "block_caret_border": "var(caret)",
+        "selection": "var(selection)",
+        "selection_border": "var(selection)",
+        "line_highlight": "var(lineHighlight)",
+        "gutter": "var(background)",
+        "gutter_foreground": "rgba(92, 92, 94, 0.75)",
+        "guide": "rgba(92, 92, 94, 0.75)",
+        "active_guide": "rgba(142, 142, 145, 0.75)",
+        "stack_guide": "rgba(142, 142, 145, 0.5)"
+    },
+    "rules": [
+        
+        {
+            "scope": "meta.todo.checked",
+            "foreground": "#00FF00",
+            "background": "var(background)",
+            "font_style": "bold"
+        },
+
+             {
+            "scope": "meta.todo.unchecked",
+            "foreground": "#FF4500",
+            "background": "var(background)",
+            "font_style": "bold"
+        },
+
+        {
+            "scope": "meta.idea.keyword",
+            "foreground": "#FF6347",
+            "background": "var(background)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "punctuation.section",
+            "foreground": "rgba(255, 255, 255, 0.3)"
+        },
+        {
+            "scope": "punctuation.separator",
+            "foreground": "rgba(255, 255, 255, 0.3)"
+        },
+        
+        {
+            "scope": "meta.section.header",
+            "foreground": "#76ABAE"
+        },
+
+        {
+            "scope": "meta.section.subheader",
+            "foreground": "#395B64"
+        },
+
+        {
+            "scope": "markup.italic.customhighlighting",
+            "foreground": "#FF69B4",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.underline.customhighlighting",
+            "foreground": "#00FF00"
+        },
+        {
+            "scope": "meta.section.divider",
+            "foreground": "#205295"
+        },
+        {
+            "scope": "meta.arrow.bold",
+            "foreground": "#C996CC"
+        },
+        {
+            "scope": "meta.arrow.oneline",
+            "foreground": "#624F82"
+        },
+        {
+            "scope": "meta.arrow.twoline",
+            "foreground": "#9F73AB"
+        },
+       {
+            "scope": "constant.numeric.enumerationhighlighting",
+            "foreground": "#03C4A1"  // Orange for numbers with closing parenthesis
+        },
+        {
+            "scope": "meta.item.enumerationhighlighting",
+            "foreground": "#C62A88"  // Green for enumeration items
+        }
+    ]
+}
+
+    
+
+

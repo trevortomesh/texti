@@ -1,0 +1,64 @@
+%YAML 1.2
+---
+name: txti
+file_extensions:
+  - txti
+scope: text.customhighlighting
+
+contexts:
+  main:
+    - match: '(=== )(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.section.header
+
+    - match: '(====)(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.section.subheader
+
+    - match: '(!IDEA)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: markup.italic.customhighlighting
+    - match: '(\[)(X)(])'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.todo.checked
+
+    - match: '(\[ ])'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.todo.unchecked
+
+    - match: '(---)(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.section.divider
+
+    - match: '(=>)(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.arrow.bold
+
+    - match: '(->)(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.arrow.oneline
+    - match: '(-->)(.*)'
+      captures:
+        1: constant.character.escape
+        2: constant.character.escape
+      scope: meta.arrow.twoline
+    - match: '^\s*([0-9]+\))(.*)'
+      captures:
+        1: constant.numeric.enumerationhighlighting
+        2: meta.item.enumerationhighlighting
